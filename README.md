@@ -47,6 +47,8 @@ Displays active routes and ensures consistent rendering across all pages.
 - React Router for navigation and dynamic routing
 - Hooks: useState, useEffect, useContext, useNavigate,  useLocation
 
+[View the PDF](/public/Batch-10_Assignment-08.pdf)
+
 
 ### Visit the site
 
