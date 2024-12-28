@@ -43,7 +43,7 @@ const CartList = () => {
   const totalPrice = cartItems.reduce((total, item) => total + item.price, 0).toFixed(2);
 
     const handleSort = () => {
-      const sortedItems = [...cartItems].sort((a, b) => a.price - b.price); 
+      const sortedItems = [...cartItems].sort((a, b) => b.price - a.price); 
       setCartItems(sortedItems);
       setIsSorted(true); 
     }
