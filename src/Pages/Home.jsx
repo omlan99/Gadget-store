@@ -20,7 +20,7 @@ const Home = () => {
           subtitle={
             "Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!"
           }
-          btn={"Shop Now"}
+          btn1={"Shop Now"}
         ></Banner>
         <div className="flex justify-center relative -top-40 lg:left-[11%] w-[398px]  lg:w-[1024px]  ">
           <img
