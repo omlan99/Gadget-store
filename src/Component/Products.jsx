@@ -11,7 +11,7 @@ const Products = () => {
   // Filtering Logic
   useEffect(() => {
     if (category === "All Products" || !category) {
-      setGadget(showAll ? products : products.slice(0, 4)); // Show limited or all products
+      setGadget(showAll ? products : products.slice(0,4)); // Show limited or all products
     } else {
       const filteredData = products.filter(
         (product) => product.category === category
@@ -30,7 +30,7 @@ const Products = () => {
 
       {/* Show All Button */}
       {!showAll &&  (
-        <div className="flex justify-center">
+        <div className="flex justify-center items-center ml-[-200px]">
           <button
             className="btn btn-warning mt-4 ml-6 text-center"
             onClick={() => setShowAll(true)} // Update state to show all products
