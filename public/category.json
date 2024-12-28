@@ -1,0 +1,27 @@
+[
+    {
+      "category_id": "C000",
+      "category": "All Products",
+      "description": "Latest smartphones with powerful processors, high-resolution cameras, and various other smart features."
+    },
+    {
+      "category_id": "C001",
+      "category": "Smartphones",
+      "description": "Latest smartphones with powerful processors, high-resolution cameras, and various other smart features."
+    },
+    {
+      "category_id": "C002",
+      "category": "Tablet",
+      "description": "High-performance laptops for gaming, work, and entertainment with powerful specs and sleek designs."
+    },
+    {
+      "category_id": "C003",
+      "category": "Watch",
+      "description": "High-quality audio gadgets including headphones, earbuds, and speakers for immersive sound experiences."
+    }
+   
+ 
+ 
+   
+  ]
+  
