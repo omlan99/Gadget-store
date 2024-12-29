@@ -11,7 +11,6 @@ const Banner = ({title, subtitle, btn1, btn2}) => {
           {subtitle}
           </p>
           {
-            // Use `&&` for conditional rendering
             btn1 && (
               <button className="px-7 py-4 bg-white font-bold text-xl text-[#9538E2] rounded-3xl mr-5">
                 {btn1}

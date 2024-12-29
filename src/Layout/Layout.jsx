@@ -6,12 +6,12 @@ import { ToastContainer } from "react-toastify";
 const Layout = () => {
     return (
         <div className='container mx-auto'>
-            {/* navbar */}
+           
             <Navbar></Navbar>
             <div className='min-h-[calc(100vh-185px)]'>
                 <Outlet></Outlet>
             </div>
-            {/* footer */}
+      
             <Footer></Footer>
         </div>
     );

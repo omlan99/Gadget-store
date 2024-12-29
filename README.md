@@ -34,7 +34,7 @@ Displays active routes and ensures consistent rendering across all pages.
 - Reload-safe implementation with persistence using LocalStorage.
 
 ## Technologies Used
-- Frontend: React.js, React Router DOM, Context API, and LocalStorage
+- Frontend: React.js, React Router DOM, Context API, and LocalStorage 
 - Styling: CSS Modules, Figma-inspired design
 - Charts: Recharts for the Statistics Page
 - Utilities: React Toastify for notifications, React Icons for icons

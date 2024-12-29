@@ -50,8 +50,8 @@ const CartList = () => {
   return (
     <div className=" bg-[#D9D9D9] pt-12 px-3 pb-[304px]">
              <Helmet>
-                    <title>Cart List</title>
-                  </Helmet>
+                <title>Cart List</title>
+              </Helmet>
       <div className="flex items-center justify-between mb-8 ">
         <h2 className="text-2xl font-bold">Cart</h2>
         <div className="flex items-center">
