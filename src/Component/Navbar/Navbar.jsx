@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { IoCartOutline } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 import { Link, NavLink, useLocation } from "react-router-dom";
-
+import logo from '../../assets/favicon-16x16.png'
 const Navbar = () => {
   const location = useLocation();
   const [currentSection, setCurrentSection] = useState(null)
@@ -75,7 +75,10 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
+        <div className="flex gap-3 justify-center items-center ml-4">
+        <img src={logo} alt="" />
         <h1 className="font-bold text-xl">Gadget Heaven</h1>
+        </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 space-x-12">{links}</ul>

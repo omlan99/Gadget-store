@@ -12,6 +12,7 @@ const Products = () => {
   useEffect(() => {
     if (category === "All Products" || !category) {
       setGadget(showAll ? products : products.slice(0,4)); 
+    }else{
       const filteredData = products.filter(
         (product) => product.category === category
       );
