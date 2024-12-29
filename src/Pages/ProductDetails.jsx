@@ -47,9 +47,9 @@ const ProductDetails = () => {
       ></Banner>
       <div>
         <div className="hero bg-white min-h-screen gap-7 relative -top-40 w-9/12 left-[14%] rounded-3xl p-8 border border-r-emerald-50">
-          <div className=" flex flex-col lg:flex-row ">
-            <img src={image} className="max-w-lg rounded-lg " />
-            <div className="px-20 space-y-3 ">
+          <div className=" flex flex-col gap-12 lg:gap-0  lg:flex-row ">
+            <img src={image} className="max-w-56  rounded-lg  " />
+            <div className="lg:px-20 space-y-3 ">
               <h1 className="text-3xl font-semibold">{title}</h1>
               <p className=" font-semibold text-xl">Price : $ {price}</p>
               <p className="text-xl">{description}</p>

@@ -52,13 +52,13 @@ const CartList = () => {
              <Helmet>
                 <title>Cart List</title>
               </Helmet>
-      <div className="flex items-center justify-between mb-8 ">
+      <div className="lg:flex items-center justify-between mb-8 ">
         <h2 className="text-2xl font-bold">Cart</h2>
         <div className="flex items-center">
-          <p className="font-bold text-2xl">
+          <p className="font-bold lg:text-2xl">
             Total Cost : {totalPrice}{" "}
           </p>
-          <button onClick={handleSort} className=" flex  items-center gap-3 font-semibold text-[#9538E2] border border-[#9538E2] py-3 px-6 rounded-full mr-4 ml-6">
+          <button onClick={handleSort} className=" flex  items-center gap-1 lg:gap-3  font-semibold text-[#9538E2] border border-[#9538E2] lg:py-3 lg:px-6 px-3 py-1 rounded-lg lg:rounded-full mr-4 ml-6">
             Sort By Price <SlEqualizer />
           </button>
           <button

@@ -30,7 +30,7 @@ const Products = () => {
 
 
       {!showAll &&  (
-        <div className="flex justify-center items-center ml-[-200px]">
+        <div className="flex justify-center items-center lg:ml-[-200px]">
           <button
             className="btn btn-warning mt-4 ml-6 text-center"
             onClick={() => setShowAll(true)}

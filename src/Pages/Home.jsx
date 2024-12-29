@@ -22,7 +22,7 @@ const Home = () => {
           }
           btn1={"Shop Now"}
         ></Banner>
-        <div className="flex justify-center relative -top-40 lg:left-[11%] w-[398px]  lg:w-[1024px]  ">
+        <div className="flex justify-center relative -top-40 lg:left-[11%] left-4 w-[398px]  lg:w-[1024px]  ">
           <img
             className="  outline outline-white outline-offset-black outline-offset-[24px]  rounded-xl h-[500px]"
             src={visionImg}
