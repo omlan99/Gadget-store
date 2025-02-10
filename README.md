@@ -52,5 +52,5 @@ Displays active routes and ensures consistent rendering across all pages.
 
 ### Visit the site
 
-[Live Link](https://teal-cocada-23a7aa.netlify.app/)
+[Live Link](https://gadget-heaven-live.netlify.app/)
 
